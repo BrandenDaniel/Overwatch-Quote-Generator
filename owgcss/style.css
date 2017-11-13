@@ -18,7 +18,7 @@ h1 {
   font-size: 1.7em;
   background-color: #cdcd00;
   font-family: 'Orbitron', sans-serif;
-  margin: 1em;
+  margin: .3em;
   border: 1px #cdcd00 solid;
 }
 
@@ -37,8 +37,9 @@ h1 {
 
 .generator p {
   font-size: 1.7em;
-  padding: .65em .65em .2em .65em;
+  padding: .65em .65em .65em .65em;
   display: inline-block;
+  margin: .5em 2em;
 }
 
 .generator {
@@ -46,7 +47,7 @@ h1 {
   text-align: center;
   border-radius: 5px;
   max-width: 880px;
-  margin: .5em 2em;
+  margin: 1em auto;
   color: #cdcd00;
   background-color: black;
   background: #2d2d00;
@@ -61,7 +62,7 @@ h1 {
 }
 
 .twitter {
-  margin: 1em;
+  margin: 3em;
   background-color: #0084b4;
   border: 1px #0084b4 solid;
   font-size: .85em;
@@ -88,6 +89,10 @@ h1 {
     font-size: 1.4em;
   }
 
+  .generator {
+    width: 91%;
+  }
+
   #gen {
     font-size: 1.3em;
   }
@@ -95,6 +100,8 @@ h1 {
   .twitter {
     font-size: .75em;
   }
+
+
 }
 
 @media (max-width: 620px) {
