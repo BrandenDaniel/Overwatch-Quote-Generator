@@ -55,6 +55,7 @@ h1 {
 .author {
   font-size: 1em;
   font-style: italic;
+  padding-right: .65em;
   padding-bottom: .75em;
   display: inline-block;
 }
@@ -80,7 +81,7 @@ h1 {
 @media (max-width: 768px) {
   h1 {
     font-size: 3em;
-    margin: .8em .55em .3em .55em;
+    margin: .8em .55em .2em .55em;
   }
 
   .generator p {
