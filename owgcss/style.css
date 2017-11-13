@@ -47,8 +47,9 @@ h1 {
   border-radius: 5px;
   max-width: 880px;
   margin: .5em 2em;
-  color: #fff;
+  color: #cdcd00;
   background-color: black;
+  background: #2d2d00;
 }
 
 .author {
