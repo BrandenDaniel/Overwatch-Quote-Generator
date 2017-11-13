@@ -67,6 +67,12 @@ h1 {
   color: #fff;
 }
 
+.twitter:hover {
+  background: #004863;
+  color: #cdcd00;
+  border-color: #000;
+}
+
 .fa-twitter {
   padding-left: 5px;
 }
