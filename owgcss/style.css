@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+  color: #cdcd00;
+  font-family: 'Orbitron', sans-serif;
+}
+
+h1 {
+  margin: .65em .5em .5em .5em;
+  font-size: 4em;
+}
+
+#gen {
+  font-size: 1.7em;
+  background-color: #cdcd00;
+  font-family: 'Orbitron', sans-serif;
+  margin: 1em;
+  border: 1px #cdcd00 solid;
+}
+
+.img {
+  text-align: center;
+  margin: 0 2em;
+  border: 3px solid #686800;
+  margin-bottom: 2.5em;
+  border-radius: 5px;
+}
+
+.img img {
+  width: 100%;
+  max-width: 880px;
+  border-radius: 5px;
+  filter: brightness(90%);
+}
+
+.generator p {
+  font-size: 1.7em;
+  padding: .65em .65em .2em .65em;
+  display: inline-block;
+}
+
+.author {
+  font-size: 1em;
+  font-style: italic;
+  padding-bottom: .75em;
+  display: inline-block;
+}
+
+.quotes {
+  border: 2px solid #686800;
+  border-radius: 5px;
+  max-width: 880px;
+  margin: 1em 2em;
+  color: #fff;
+  background-color: black;
+}
+
+.twitter {
+  margin: 1em;
+  background-color: #0084b4;
+  border: 1px #0084b4 solid;
+  font-size: .85em;
+  color: #fff;
+}
+
+.fa-twitter {
+  padding-left: 5px;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3em;
+    margin: .8em .55em .55em .55em;
+  }
+
+  .generator p {
+    font-size: 1.4em;
+  }
+
+  #gen {
+    font-size: 1.3em;
+  }
+
+  .twitter {
+    font-size: .75em;
+  }
+}
+
+@media (max-width: 620px) {
+  h1 {
+    font-size: 2.4em;
+  }
+
+  .generator p {
+    font-size: 1.2em;
+  }
+
+  .author {
+    font-size: .8em;
+  }
+}
