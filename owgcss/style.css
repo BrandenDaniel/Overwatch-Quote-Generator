@@ -116,4 +116,9 @@ h1 {
   .author {
     font-size: .8em;
   }
+
+  .generator {
+    width: 86%;
+  }
+
 }
